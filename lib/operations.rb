@@ -10,10 +10,10 @@ end
 
 
 def not_safe?(speed)
-safe = true 
-speed < 40 ? safe = false    : safe = true    
-speed > 60 ? safe = false   : safe = true   
-return !safe 
+safe = true  
+speed < 40 ? safe = false ; return !safe   : safe = true    ; return !safe 
+speed > 60 ? safe = false ; return !safe   : safe = true  ; return !safe  
+
 	
 end
 	
